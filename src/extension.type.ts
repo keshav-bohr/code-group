@@ -3,3 +3,9 @@ export interface Group {
     start: number;
     end: number;
 }
+
+export interface Config {
+    fileType: string;
+    startPattern: RegExp;
+    stopPattern: RegExp;
+}
